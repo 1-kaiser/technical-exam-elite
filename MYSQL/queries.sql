@@ -1,21 +1,21 @@
 
 -- 1. Display total number of albums sold per artist
 
-SELECT Artist, SUM("2022 Sales") AS Total_Sales
+SELECT Artist, SUM(`2022 Sales`) AS Total_Sales
 FROM data_reference__album_sales_
 GROUP BY Artist
 ORDER BY Total_Sales
 
 -- 2. Display combined album sales per artist
 
-SELECT Artist, SUM("2022 Sales") AS Total_Sales
+SELECT Artist, SUM(`2022 Sales`) AS Total_Sales
 FROM data_reference__album_sales_
 GROUP BY Artist
 ORDER BY Total_Sales DESC
 
 -- 3. Display the top 1 artist who sold most combined album sales
 
-SELECT Artist, SUM("2022 Sales") AS Total_Sales
+SELECT Artist, SUM(`2022 Sales`) AS Total_Sales
 FROM data_reference__album_sales_
 GROUP BY Artist
 ORDER BY Total_Sales DESC

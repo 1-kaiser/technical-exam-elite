@@ -8,7 +8,7 @@
 ### Clone the repo
 
 ```bash
-gh repo clone 1-kaiser/technical-exam-elit
+gh repo clone 1-kaiser/technical-exam-elite
 cd technical-exam-elite
 ```
 
